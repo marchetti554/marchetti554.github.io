@@ -3,11 +3,11 @@
 const config = {
   github: {
     username: 'marchetti554', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'updated', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['dsiQuintaEntrega'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -82,7 +82,7 @@ const config = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
     hideAvatarRing: false,
