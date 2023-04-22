@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'marco-marchetti',
+    linkedin: 'marco-marchetti-371388140',
     stackoverflow: '9727284/marco-marchetti', // format: userid/username
     email: 'marchetti554@gmail.com',
   },
