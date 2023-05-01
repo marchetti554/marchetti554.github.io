@@ -7,7 +7,7 @@ const config = {
     limit: 4, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['dsiQuintaEntrega'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['dsiQuintaEntrega','react-js-blog'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -21,16 +21,27 @@ const config = {
   },
   skills: [
     'Golang',
-    'Rust',
     'Java',
-    'Spring/SpringBoot',
+    'Rust',
+    'Spring', 
+    'Spring Boot',
+    'Relational DB',
     'MySQL',
+    'SQLServer',
+    'Non-relational DB',
     'DynamoDB',
     'Redis',
     'Terraform',
-    'AWS',
+    'AWS SNS',
+    'AWS SQS',
+    'AWS Lambda',
+    'AWS Cloudwatch',
+    'AWS ECS',
+    'AWS S3',
     'Git',
+    'Github Actions',
     'Docker',
+    'Agile Methodologies',
   ],
   experiences: [
     {
@@ -74,7 +85,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'forest',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -89,36 +100,7 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
       'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
     ],
 
     // Custom theme
