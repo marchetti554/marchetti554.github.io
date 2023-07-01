@@ -7,7 +7,7 @@ const config = {
     limit: 4, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['dsiQuintaEntrega','react-js-blog'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['dsiQuintaEntrega','react-js-blog','fiscal-nysman'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
