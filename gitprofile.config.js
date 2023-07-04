@@ -45,10 +45,17 @@ const config = {
   ],
   experiences: [
     {
+      company: 'Monta',
+      position: 'Software Engineer',
+      from: 'June 2023',
+      to: 'present',
+      companyLink: 'https://www.monta.com/',
+    },
+    {
       company: 'Ualá',
       position: 'Software Engineer',
       from: 'November 2020',
-      to: 'Present',
+      to: 'June 2023',
       companyLink: 'https://www.uala.com.ar/',
     },
     {
